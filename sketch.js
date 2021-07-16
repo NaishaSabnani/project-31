@@ -37,7 +37,8 @@ function setup() {
 
   
   //create 4th row of plinko objects
-  for (var j = 15; j <=width; j=j+50) { 
+  for (var j = 15; j <=width; j=j+50)
+  { 
     plinkos.push(new Plinko(j,375));
   }
 }
