@@ -59,7 +59,7 @@ function draw() {
   //create particle objects
   if(frameCount%60===0)
   {
-   particles.push(new Particle(random(width/2-10, width/2+10,10,10)))
+   particles.push(new Particle(random(width/2-10), width/2+10,10,10))
   }
   
   //display the plinkos 
